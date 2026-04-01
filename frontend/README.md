@@ -1,16 +1,43 @@
-# React + Vite
+# Digital Evidence Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+Digital Evidence Vault is a role-based digital evidence management system that ensures the integrity of digital evidence using SHA-256 hashing and maintains a chain of custody log for tracking all actions performed on evidence.
 
-Currently, two official plugins are available:
+## Features
+- Role-Based Login System (Admin, Police, Forensic, Evidence Room)
+- Upload Digital Evidence
+- SHA-256 Hash Generation
+- Evidence Integrity Verification
+- Tamper Detection
+- Chain of Custody Logs
+- Admin Dashboard
+- Evidence Management System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- CSS / Tailwind CSS
+- LocalStorage
+- Crypto-JS (SHA-256)
+- React Router
 
-## React Compiler
+## System Modules
+1. Admin Dashboard
+2. Police Dashboard
+3. Upload Evidence Module
+4. Verify Evidence Module
+5. Evidence List Module
+6. Chain of Custody Logs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How the System Works
+1. Police upload digital evidence.
+2. System generates SHA-256 hash for the file.
+3. Evidence is stored in the system.
+4. Forensic department verifies evidence by comparing hash values.
+5. If hash matches → Evidence is Verified.
+6. If hash does not match → Evidence is Tampered.
+7. All actions are recorded in Chain of Custody Logs.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run the Project
+```bash
+npm install
+npm run dev
