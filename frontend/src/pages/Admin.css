@@ -1,0 +1,102 @@
+/* MAIN LAYOUT */
+.layout {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 20px 30px;
+}
+
+/* TOP CARDS */
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.admin-card {
+  background: linear-gradient(145deg, #0f172a, #020617);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+}
+
+.admin-card h2 {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.admin-card p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* GRID */
+.admin-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.admin-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* BOX */
+.admin-box {
+  background: linear-gradient(145deg, #0f172a, #020617);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+}
+
+/* STATUS */
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.status-green {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.status-red {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* STORAGE */
+.storage-bar {
+  background: #020617;
+  border-radius: 10px;
+  height: 8px;
+  margin-top: 10px;
+}
+
+.storage-fill {
+  background: #3b82f6;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.admin-card:hover,
+.admin-box:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+  box-shadow: 0 0 15px rgba(59,130,246,0.3);
+}

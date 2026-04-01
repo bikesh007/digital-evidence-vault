@@ -1,0 +1,12 @@
+.upload-box {
+  background: linear-gradient(145deg, #0f172a, #020617);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+  margin-bottom: 20px;
+}
+
+.upload-box input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

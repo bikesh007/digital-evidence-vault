@@ -1,0 +1,62 @@
+.login-bg {
+  background: linear-gradient(-45deg, #020617, #020617, #0f172a, #020617);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.split-container {
+  display: flex;
+  width: 900px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.left-panel {
+  width: 50%;
+  background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+  color: white;
+  padding: 40px;
+}
+
+.right-panel {
+  width: 50%;
+  padding: 40px;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.right-panel input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
