@@ -41,3 +41,30 @@ Digital Evidence Vault is a role-based digital evidence management system that e
 ```bash
 npm install
 npm run dev
+
+
+## Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Register Page
+![Register](screenshots/register.png)
+
+### Admin Dashboard
+![Admin](screenshots/admin.png)
+
+### Police Dashboard
+![Police](screenshots/police.png)
+
+### Upload Evidence
+![Upload](screenshots/upload.png)
+
+### Verify Evidence
+![Verify](screenshots/verify.png)
+
+### Evidence List
+![Evidence](screenshots/evidence.png)
+
+### Chain of Custody Logs
+![Logs](screenshots/logs.png)
